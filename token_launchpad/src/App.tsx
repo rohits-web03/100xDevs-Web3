@@ -20,7 +20,9 @@ function App() {
                   <WalletDisconnectButton />
                 </div>
               </div>
-              <TokenLaunchPad></TokenLaunchPad>
+              <div className='w-full h-[80%] flex justify-center items-center'>
+                <TokenLaunchPad></TokenLaunchPad>
+              </div>
             </WalletModalProvider>
         </WalletProvider>
       </ConnectionProvider>
